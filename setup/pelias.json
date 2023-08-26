@@ -121,7 +121,7 @@
     },
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
-      "countryCode": "BE",
+      "countryCode": ["BE", "NL", "FR", "LU", "DE"],
       "importPlace": [
         "85633111",
         "85632997",
