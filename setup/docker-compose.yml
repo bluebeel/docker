@@ -94,6 +94,7 @@ services:
   elasticsearch:
     image: pelias/elasticsearch:7.16.1
     container_name: pelias_elasticsearch
+    environment: [ "ES_JAVA_OPTS=-Xmx8g" ]
     user: "${DOCKER_USER}"
     restart: always
     ports: [ "127.0.0.1:9200:9200", "127.0.0.1:9300:9300" ]

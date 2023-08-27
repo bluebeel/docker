@@ -61,9 +61,6 @@
         },
         {
           "sourceURL": "https://download.geofabrik.de/europe/france-latest.osm.pbf"
-        },
-        {
-          "sourceURL": "https://download.geofabrik.de/europe/germany-latest.osm.pbf"
         }
       ],
       "leveldbpath": "/tmp",
@@ -80,9 +77,6 @@
         },
         {
           "filename": "france-latest.osm.pbf"
-        },
-        {
-          "filename": "germany-latest.osm.pbf"
         }
       ]
     },
@@ -97,20 +91,7 @@
         "be/wal/bosa-region-wallonia-de.csv",
         "nl/countrywide.csv",
         "lu/countrywide.csv",
-        "fr/countrywide.csv",
-        "de/berlin.csv",
-        "de/he/city_of_kassel.csv",
-        "de/he/city_of_frankfurtammain.csv",
-        "de/hh/statewide.csv",
-        "de/mv/city_of_rostock.csv",
-        "de/ni/bentheim.csv",
-        "de/nw/city_of_cologne.csv",
-        "de/nw/city_of_wesel.csv",
-        "de/nw/city_of_wuppertal.csv",
-        "de/nw/kreis_viersen.csv",
-        "de/nw/statewide.csv",
-        "de/sn/statewide.csv",
-        "de/th/statewide.csv"
+        "fr/countrywide.csv"
       ]
     },
     "polyline": {
@@ -121,9 +102,8 @@
     },
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
-      "countryCode": ["BE", "NL", "FR", "LU", "DE"],
+      "countryCode": ["BE", "NL", "FR", "LU"],
       "importPlace": [
-        "85633111",
         "85632997",
         "136253037", 
         "85633147",
